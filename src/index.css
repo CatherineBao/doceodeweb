@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #010D1A; 
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background: #1f2642; 
+    border-radius: 25px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2c355c; 
+  }
+
+  ::-webkit-scrollbar-thumb:active {
+    background: #BE4FBB; 
+  }
+
+  html {
+	  overflow-y: scroll;
+  	scrollbar-color: #1f2642 #010D1A;
+  	scrollbar-width: thin;
+  }
+}
