@@ -8,7 +8,7 @@ const Unity = () => {
   return (
     <Course
       lang='Unity'
-      title=''
+      title='How to Build Your First Game - Unity'
       description='This course will walk participants through the process of developing games using the industry-leading engine Unity, combined with its official programming language C#. After taking this course, participants will be fully prepared to enter the game development workforce as qualified programmers.'
       banner={unityBanner}
       alt='A banner representing the unity class offered'

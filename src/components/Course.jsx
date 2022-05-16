@@ -54,7 +54,8 @@ const Course = (props) => {
 				<div className={'rounded-3xl text-center lg:w-9/12 h-full ' + (currentVideo === -1 ? 'p-12 bg-dark-gray' : '')}>
           {currentVideo === -1 ? (
             <div>
-              <img className='mb-8 rounded-3xl' src={props.banner} alt='python banner'/>
+              <img className='mb-8 rounded-3xl' src={props.banner} alt='course banner'/>
+              {props.extraContent ? <div className='my-3'>{props.extraContent}</div> : null}
     					<h1 className='text-purple text-5xl uppercase font-thin mb-6'>{props.title}</h1>
               <h3 className='text-ice-blue pb-5 text-xl'>{props.nextSessionDate}</h3>
      			    <h2 className='text-3xl mb-1'>Come back during the live seminar!</h2>
@@ -63,8 +64,6 @@ const Course = (props) => {
                 <Link className='text-ice-blue hover:text-med-blue hover:cursor-pointer duration-200 ml-1' to='/events'>explore </Link>
                 past recorded webinars to enhance your coding knowlege:
               </p>
-              
-              {props.extraContent ? <div className='mt-3'>{props.extraContent}</div> : null}
             </div>
           ) : (
             <iframe className='outline-none rounded-3xl overflow-hidden h-[calc((100vw-2rem)*9/16)] sm:h-[calc((100vw-7rem)*9/16)] lg:h-[calc((100vw-20rem)*81/192)]' width='100%' height='100%' src={'https://www.youtube.com/embed/' + props.sessions[currentVideo].id} title='YouTube video player' frameBorder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
