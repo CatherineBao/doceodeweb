@@ -51,6 +51,9 @@ const Resources = () => {
         <div className='text-center lg:w-2/4'>
           <h3 className='text-purple text-2xl uppercase'>Programming</h3>
           <p className='text-white-gray uppercase italic mb-6'>All programming was done solely by the team.</p>
+          <div className='mb-6 leading-loose font-thin'>
+            <a className='hover:text-med-blue duration-200' href='https://1drv.ms/u/s!Avvk44dc-F1UgW4rhkn9W5ETbzr7?e=mxrH4O'>Source Code</a>
+          </div>
           <div className='mb-6 leading-loose'>
             <h4 className='text-ice-blue uppercase text-xl'>Documentation</h4>
             <div className='font-thin'>
@@ -63,7 +66,7 @@ const Resources = () => {
           <div className='mb-6 leading-loose'>
             <h4 className='text-ice-blue uppercase text-xl'>General</h4>
             <div className='font-thin'>
-              <a className='italic font-normal' >Class Notes/Prior Knowlege</a> <br/>
+              <p className='italic font-normal' >Class Notes/Prior Knowlege</p> <br/>
               <a href="https://coryrylan.com/blog/css-gap-space-with-flexbox" target='_blank' className='hover:text-med-blue duration-200'>Flexbox Gap Spacing</a> <br/>
               <a href="https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp" target='_blank' className='hover:text-med-blue duration-200'>Scroll</a> <br/>
             <a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_form_button" target='_blank' className='hover:text-med-blue duration-200'>Button Styling</a>
