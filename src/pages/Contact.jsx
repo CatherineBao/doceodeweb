@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import contactGraphic from '../images/ab-graphic-two.png'
 
 const Contact = () => {
-  const faqBox = 'flex flex-col lg:flex-row lg:space-x-6 h-40'
+  const faqBox = 'flex flex-col lg:flex-row lg:space-x-6'
   const summary = 'uppercase font-bold hover:cursor-pointer'
   const summaryBox = 'w-full lg:w-2/4 mb-6'
   const link = 'text-ice-blue hover:text-med-blue hover:cursor-pointer duration-200'
@@ -24,7 +24,7 @@ const Contact = () => {
                 <h1 className='text-purple text-5xl uppercase font-thin pb-6'>Contact Us:</h1>
                 <p className='indent-10 text-white-gray text-xl leading-loose font-thin mb-6'>
                   Although Decode’s seminars are typically centered locally, due to this year’s situation we are opening our lessons to a digital platform. If you have any inquiries please refer to the contact information for the general offices provided below. All questions will be answered within 2-3 business days. If you are searching for specific information you can request for a specialist.
-                  <div classname='indent-10'> Before you call in, please take a look at the <a className={link} href='#FAQ'> FAQ </a> to see if your question has already been answered.</div>
+                  <div className='indent-10'> Before you call in, please take a look at the <a className={link} href='#FAQ'> FAQ </a> to see if your question has already been answered.</div>
                 </p>
               </div>
               <img className='w-0 h-5/6 pr-6 invisible 2xl:w-1/3 2xl:visible' src={contactGraphic} alt='A graphic to fill up the empty space'/>
@@ -35,7 +35,7 @@ const Contact = () => {
                 <h3 className='text-white-gray text-2xl font-medium'>
                   Mailing Address:
                 </h3>
-                <p classname=''>
+                <p className=''>
                   Doceode Office Building <br/>
                   2022 N Westward Street <br/>
                   110 <br/>
