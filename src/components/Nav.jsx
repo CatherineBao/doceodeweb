@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { NavLink, Link, Outlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useLocation } from 'react-router'
 import { useAuth0 } from '@auth0/auth0-react'
 
 import LoginBtn from './LoginBtn'
@@ -16,12 +15,7 @@ import companyLogo from '../images/nav-icons/logo.png'
 const Nav = () => {
   const [dropDownOpen, setDropDownOpen] = useState(false)
   const navClass = 'w-24 sm:w-60 h-20 flex justify-center items-center sm:hover:tracking-widest hover:text-ice-blue ease-in-out duration-200'
-  const location = useLocation()
   const { isAuthenticated } = useAuth0()
-
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [location])
   
   return (
     <motion.div
