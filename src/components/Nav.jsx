@@ -18,6 +18,10 @@ const Nav = () => {
   const navClass = 'w-24 sm:w-60 h-20 flex justify-center items-center sm:hover:tracking-widest hover:text-ice-blue ease-in-out duration-200'
   const { isAuthenticated } = useAuth0()
   const location = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [location])
   
   return (
     <motion.div

@@ -8,7 +8,7 @@ const LoginButton = () => {
   return(
     <button className='uppercase flex justify-center w-full bg-dark-blue' onClick={() => loginWithRedirect()}>
       <div className='flex gap-5 items-center justify-center hover:text-ice-blue duration-200'>
-        <p className='hidden lg:block text-lg uppercase font-thin'>Log In</p><FontAwesomeIcon icon="fas fa-sign-in-alt" />
+        <p className='hidden lg:block text-lg uppercase font-thin'>Log In</p><FontAwesomeIcon icon='fas fa-sign-in-alt' />
       </div>
     </button>
   ) 

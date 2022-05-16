@@ -11,8 +11,8 @@ const TermsOfService = () => {
       exit={{ opacity:0 }}
     >
   		<div>
-  			<div class="main">
-          <h1 id="title" className='text-center text-purple text-5xl uppercase font-thin pt-10'>Terms of Service</h1>
+  			<div className='main'>
+          <h1 id='title' className='text-center text-purple text-5xl uppercase font-thin pt-10'>Terms of Service</h1>
           <div className='text-center py-5'>
             <p>Last updated: March 13, 2022</p>
             <p>Please read these terms and conditions carefully before using Our Service.</p>
@@ -41,13 +41,13 @@ const TermsOfService = () => {
                 <p><strong>Service</strong> refers to the Website.</p>
               </li>
               <li>
-                <p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href="https://www.termsfeed.com/terms-conditions-generator/" target="_blank">Terms and Conditions Generator</a>.</p>
+                <p><strong>Terms and Conditions</strong> (also referred as &quot;Terms&quot;) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href='https://www.termsfeed.com/terms-conditions-generator/' target='_blank'>Terms and Conditions Generator</a>.</p>
               </li>
               <li>
                 <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
               </li>
               <li>
-                <p><strong>Website</strong> refers to Doceode, accessible from <a href="https://deceode/surge.sg" rel="external nofollow noopener" target="_blank">https://deceode/surge.sg</a></p>
+                <p><strong>Website</strong> refers to Doceode, accessible from <a href='https://deceode/surge.sg' rel='external nofollow noopener' target='_blank'>https://deceode/surge.sg</a></p>
               </li>
               <li>
                 <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
@@ -110,7 +110,7 @@ const TermsOfService = () => {
           <p>By email: doceode@codingforeveryone.com</p>
           </li>
           <li>
-          <p>By visiting this page on our website: <a href="https://doceode.surge.sh" rel="external nofollow noopener" target="_blank">doceode.surge.sh</a></p>
+          <p>By visiting this page on our website: <a href='https://doceode.surge.sh' rel='external nofollow noopener' target='_blank'>doceode.surge.sh</a></p>
           </li>
           <li>
           <p>By phone number: 8009687666</p>

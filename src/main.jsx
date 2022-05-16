@@ -31,8 +31,8 @@ library.add(fas)
 
 render(
   <Auth0Provider
-    domain="doceode.us.auth0.com"
-    clientId="pxxHkrGhCGwH1OlK6hKd9BSrMORxQDAr"
+    domain='doceode.us.auth0.com'
+    clientId='pxxHkrGhCGwH1OlK6hKd9BSrMORxQDAr'
     redirectUri={window.location.origin}
   >
     <BrowserRouter>
