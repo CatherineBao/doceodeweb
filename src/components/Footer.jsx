@@ -35,7 +35,7 @@ const Footer = () => {
     		</div>
       </div>
   	</div>
-      <div className='text-[0.6em] text-white-gray text-center mt-10 font-bold'>
+      <div className='text-[0.6em] text-white-gray text-center mt-10'>
         © 2020 CATHERINE BAO & ROSE NUFFER. TIMPANOGOS HIGHSCHOOL.
       </div>
       </div>
