@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import { NavLink, Link, Outlet } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useLocation } from 'react-router-dom'
 import { useAuth0 } from '@auth0/auth0-react'
 
 import LoginBtn from './LoginBtn'
@@ -17,7 +16,6 @@ const Nav = () => {
   const [dropDownOpen, setDropDownOpen] = useState(false)
   const navClass = 'w-24 sm:w-60 h-20 flex justify-center items-center sm:hover:tracking-widest hover:text-ice-blue ease-in-out duration-200'
   const { isAuthenticated } = useAuth0()
-  const location = useLocation()
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -55,7 +53,7 @@ const Nav = () => {
           <Link className='flex items-center lg:block w-auto lg:w-80 p-4 sm:p-6 my-1 mx-2 lg:my-4 lg:mx-4 hover:bg-dark-gray bg-dark-gray lg:bg-dark-blue rounded-3xl ease-in-out duration-200' to='/about' onClick={() => setDropDownOpen(false)}>
               <img className='w-0 sm:w-auto sm:mr-5 w-20 h-20 sm:block lg:mr-0' src={aboutIcon} alt='A light bulb icon that represents the information drop down section'/>
               <div>
-                <div className='text-xl uppercase font-normal'>About</div>
+                <div className='text-xl uppercase font-normal'>Call to Action</div>
                 <div className='leading-none sm:leading-normal'>Find out more about Doceode, our values, and mission:</div>
                 <div className='h-0 sm:h-auto invisible sm:visible lg:pt-2 font-normal'>
                   Learn More
@@ -89,7 +87,7 @@ const Nav = () => {
       </motion.div>
       
       {dropDownOpen ? (
-        <div className='w-full h-96' onClick={() => setDropDownOpen(false)}></div>
+        <div className='w-full h-screen' onClick={() => setDropDownOpen(false)}></div>
       ) : null}
       
       <Outlet />
