@@ -14,7 +14,7 @@ import { motion } from 'framer-motion'
 import App from './App'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import Scroll from './components/ReturnToTop'
+import Scroll from './components/ReturnToTop '
 import Return from './components/ScrollToTop'
 
 import About from './pages/About'
