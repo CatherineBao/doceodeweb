@@ -110,7 +110,7 @@ const TermsOfService = () => {
           <p>By email: doceode@codingforeveryone.com</p>
           </li>
           <li>
-          <p>By visiting this page on our website: <a href='https://doceode.surge.sh' rel='external nofollow noopener' target='_blank'>doceode.surge.sh</a></p>
+          <p>By visiting this page on our website: <a href='https://doceodefbla.vercel.app/' rel='external nofollow noopener' target='_blank'>doceodefbla.vercel.app</a></p>
           </li>
           <li>
           <p>By phone number: 8009687666</p>
