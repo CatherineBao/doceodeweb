@@ -14,7 +14,6 @@ import { motion } from 'framer-motion'
 import App from './App'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
-import Scroll from './components/ReturnToTop '
 
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -37,7 +36,6 @@ render(
     redirectUri={window.location.origin}
   >
     <BrowserRouter>
-        <Scroll/>
         <div className='bg-dark-blue'>
           <Nav />
           <div className='text-white-gray px-4 sm:px-14 lg:px-36 pt-20'>
