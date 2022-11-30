@@ -13,7 +13,7 @@ const About = () => {
       exit={{ opacity:0 }}
     >
 		<div>
-      <h1 className='text-center text-purple text-5xl uppercase font-thin'>ABOUT DOCEODE</h1>
+      <h1 className='text-center text-purple text-5xl uppercase font-thin'>OUR Call to Action</h1>
       <h2 className='text-center italic text-white-gray text-2xl font-thin mb-10'>(Doh·che·ode)</h2>
 			<div className='lg:grid grid-cols-[4fr_5fr] pb-10 lg:pb-20'>
         <div className='lg:flex items-center'>
