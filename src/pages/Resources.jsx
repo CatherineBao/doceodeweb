@@ -9,15 +9,7 @@ const Resources = () => {
       exit={{ opacity:0 }}
     >
     <div className='bg-dark-blue'>
-      <div className='lg:flex flex-col items-center justify-items-center'>
-        <h1 className='text-purple text-4xl uppercase font-thin pb-6 text-center'> TSA resources </h1>
-      <div className='bg-dark-gray p-8 text-center leading-loose text-base uppercase font-thin rounded-3xl lg:w-2/4'>
-        <a href='https://drive.google.com/file/d/1dAEX0rMaIrrscxNkcjJvanpAK6pxPMvW/view?usp=sharing' target='_blank' className='hover:text-med-blue duration-200'>Plan of Work Log</a> <br/>
-        <a href='https://drive.google.com/file/d/19yxuQtreGnn2Ym0xhkdOzpmQCwvRx2t4/view?usp=sharing' target='_blank' className='hover:text-med-blue duration-200'>Student Copyright Checklist</a> <br/>
-        <a href='https://drive.google.com/drive/folders/1vO4cD14A19ukYKR08SR92QVHhlHI78hh?usp=sharing' target='_blank' className='hover:text-med-blue duration-200'>Photo/film/video consent and release</a>
-      </div>
-        <h1  className='text-purple text-4xl uppercase font-thin pb-6 text-center mt-20'> Resources Used </h1>
-    </div>
+      <h1  className='text-purple text-4xl uppercase font-thin pb-6 text-center mt-20'> Resources Used </h1>
       <div className='lg:flex uppercase'>
         <div className='text-center lg:w-2/4 pb-20 lg:pb-0'>
           <h3 className='text-purple text-2xl uppercase '>Design</h3>
