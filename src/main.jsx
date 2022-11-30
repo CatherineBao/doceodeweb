@@ -14,6 +14,8 @@ import { motion } from 'framer-motion'
 import App from './App'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Scroll from './components/ReturnToTop'
+import Return from './components/ScrollToTop'
 
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -31,29 +33,32 @@ library.add(fas)
 
 render(
   <Auth0Provider
-    domain='doceode.us.auth0.com'
-    clientId='pxxHkrGhCGwH1OlK6hKd9BSrMORxQDAr'
+    domain="dev-9nhbh74k.us.auth0.com"
+    clientId="VJwIQDT3rZr0spPe0IAbLsX5uRA0P2Cw"
     redirectUri={window.location.origin}
   >
     <BrowserRouter>
-      <div className='bg-dark-blue'>
-        <Nav />
-        <div className='text-white-gray px-4 sm:px-14 lg:px-36 pt-20'>
-          <Routes>
-            <Route path='/' element={<App />} />
-            <Route path='/events' element={<Events />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/resources' element={<Resources />} />
-						<Route path='/courses/rust' element={<Rust />} />
-						<Route path='/courses/python' element={<Python />} />
-						<Route path='/courses/unity' element={<Unity />} />
-  					<Route path='/legal/terms-of-service' element={<TermsOfService />} />
-  					<Route path='/legal/privacy-policy' element={<PrivacyPolicy />} />
-          </Routes>
-        </div>
+      <Return>
+        <Scroll/>
+        <div className='bg-dark-blue'>
+          <Nav />
+          <div className='text-white-gray px-4 sm:px-14 lg:px-36 pt-20'>
+            <Routes>
+              <Route path='/' element={<App />} />
+              <Route path='/events' element={<Events />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/resources' element={<Resources />} />
+  						<Route path='/courses/rust' element={<Rust />} />
+  						<Route path='/courses/python' element={<Python />} />
+  						<Route path='/courses/unity' element={<Unity />} />
+    					<Route path='/legal/terms-of-service' element={<TermsOfService />} />
+    					<Route path='/legal/privacy-policy' element={<PrivacyPolicy />} />
+            </Routes>
+          </div>
   			<Footer />
       </div>
+      </Return>
     </BrowserRouter>
   </Auth0Provider>,
   document.getElementById('root')
