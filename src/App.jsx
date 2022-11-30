@@ -109,7 +109,7 @@ const App = () => {
 					<h1 className='text-center text-purple text-5xl uppercase font-thin mb-5'>
 						Learn To Code
 					</h1>
-					<p className='text-xl text-center leading-normal mb-10'>Ever wanted to learn a programming language? Say no more! Doceode has you covered with courses to enhance your coding capabilities. Worried about not having time? Our programs are flexible and allow you to get the most of your experience. Additionally, our courses are all free, therefore everyone has an opportunity to participate and receive the benefits of coding.
+					<p className='text-xl text-center leading-normal mb-10'>Ever wanted to learn a programming language? Say no more! Doceode has you covered with courses to enhance your coding capabilities. Worried about not having time? Our programs are flexible and allow you to get the most of your experience. Additionally, our courses are all free, therefore everyone has an opportunity to participate and receive the benefits of coding. <br/><br/> To learn how to code as well as recieve email updates, make an account with us:
 					</p>
 					<Link
 						className='text-center uppercase text-4xl py-5 w-full sm:w-auto sm:px-20 border-ice-blue text-ice-blue border-4 rounded-3xl active:border-med-blue active:text-med-blue hover:border-med-blue hover:text-med-blue duration-200'
