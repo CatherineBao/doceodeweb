@@ -15,7 +15,6 @@ import App from './App'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Scroll from './components/ReturnToTop '
-import Return from './components/ScrollToTop'
 
 import About from './pages/About'
 import Contact from './pages/Contact'
@@ -38,7 +37,6 @@ render(
     redirectUri={window.location.origin}
   >
     <BrowserRouter>
-      <Return>
         <Scroll/>
         <div className='bg-dark-blue'>
           <Nav />
@@ -58,7 +56,6 @@ render(
           </div>
   			<Footer />
       </div>
-      </Return>
     </BrowserRouter>
   </Auth0Provider>,
   document.getElementById('root')
