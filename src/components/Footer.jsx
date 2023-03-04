@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
   	</div>
       <div className='text-[0.6em] text-white-gray text-center lg:text-left mt-10'>
-        © 2022 CATHERINE BAO. TIMPANOGOS HIGHSCHOOL.
+        © 2022 TIMPANOGOS HIGHSCHOOL.
       </div>
       </div>
   )
